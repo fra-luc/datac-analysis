@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "datac-analysis"
+version = "0.1.0"
+description = "Consumer of Atac feed and schedule updates"
+authors = ["Francesco Lucantoni <fran.lucantoni@gmail.com>"]
+readme = "README.md"
+packages = [{include = "*", from="src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+jupytext = "^1.16.1"
+notebook = "^7.1.2"
+gtfs-realtime-bindings = "1.0.0"
+pandas = "^2.2.1"
+pyarrow = "^15.0.2"
+matplotlib = "^3.8.3"
+gtfs-kit = "^6.1.0"
+pytz = "^2024.1"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+pylint = "^3.1.0"
+mypy = "^1.8.0"
+black = "^24.2.0"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pylint."MESSAGE CONTROL"]
+max-line-length = 120
+disable = [
+    "missing-module-docstring",
+    "missing-class-docstring"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
