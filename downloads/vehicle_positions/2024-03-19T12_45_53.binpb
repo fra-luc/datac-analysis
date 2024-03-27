@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]> <html lang="it" class="ie ie7 js postmessage queryselector requestanimationframe raf svg no-touchevents cssanimations csscalc flexbox flexboxlegacy no-flexboxtweener flexwrap fontface cssgradients csspositionsticky cssremunit no-scrollsnappoints supports target csstransitions cssvhunit cssvmaxunit cssvminunit cssvwunit classlist placeholder srcset svgasimg inlinesvg"> <![endif]-->
+<!--[if IE 8]> <html lang="it" class="ie ie8 js postmessage queryselector requestanimationframe raf svg no-touchevents cssanimations csscalc flexbox flexboxlegacy no-flexboxtweener flexwrap fontface cssgradients csspositionsticky cssremunit no-scrollsnappoints supports target csstransitions cssvhunit cssvmaxunit cssvminunit cssvwunit classlist placeholder srcset svgasimg inlinesvg"> <![endif]-->
+<!--[if IE 9]> <html lang="it" class="ie9 js postmessage queryselector requestanimationframe raf svg no-touchevents cssanimations csscalc flexbox flexboxlegacy no-flexboxtweener flexwrap fontface cssgradients csspositionsticky cssremunit no-scrollsnappoints supports target csstransitions cssvhunit cssvmaxunit cssvminunit cssvwunit classlist placeholder srcset svgasimg inlinesvg"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="it" class="js postmessage queryselector requestanimationframe raf svg no-touchevents cssanimations csscalc flexbox flexboxlegacy no-flexboxtweener flexwrap fontface cssgradients csspositionsticky cssremunit no-scrollsnappoints supports target csstransitions cssvhunit cssvmaxunit cssvminunit cssvwunit classlist placeholder srcset svgasimg inlinesvg"
+      style="height: 100%;"><!--<![endif]-->
+
+  <head
+    
+
+    
+    
+    
+    
+    
+
+>
+    
+<meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.9.5" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta property="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="https://dati.comune.roma.it/catalog/img/Roma-Stemma.png" />
+<meta property="og:title" content="Errore [500]  CKAN" />
+<!--
+    Twitter Card metatags
+-->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@Roma"/>
+
+    <title>Errore [500] - CKAN</title>
+
+    
+    <link rel="shortcut icon" href="/catalog/img/roma.ico" />
+    
+    
+   
+      
+      
+      
+      
+    
+   <link rel="stylesheet" href="/catalog/css/multilang.css" type="text/css">
+
+
+    
+    
+
+
+
+    
+      
+      
+    
+
+    
+    <link href="/catalog/webassets/build.css?62d5d481" rel="stylesheet"/>
+<link href="/catalog/webassets/portal.css?01a7c37b" rel="stylesheet"/>
+<link href="/catalog/webassets/ckan.css?6e9ffdcc" rel="stylesheet"/>
+<link href="/catalog/webassets/css.css?9b275678" rel="stylesheet"/>
+<link href="/catalog/webassets/print.css?4bc6020f" rel="stylesheet"/>
+<link href="/catalog/webassets/base/76c34533_main.css" rel="stylesheet"/>
+<link href="/catalog/webassets/ckanext-harvest/c95a0af2_harvest_css.css" rel="stylesheet"/>
+    
+  </head>
+
+  
+  <body
+ data-site-root="https://dati.comune.roma.it/catalog/" data-locale-root="https://dati.comune.roma.it/catalog/" 
+class="Roma OpenData c-hideFocus enhanced" style="position: relative; min-height: 100%; top: 0px;" cz-shortcut-listen="true"
+>
+
+    
+    <div class="sr-only sr-only-focusable"><a href="#content">Salta al contenuto</a></div>
+  
+
+  
+    
+
+
+
+
+
+
+<div id="current-lang" style="display:none;">it</div>
+<div id="print-header" style="display: none;">
+    <img id="print-logo" src="/catalog/img/logo_roma_opaco.png"/>
+</div>
+<header class="Header Headroom--fixed js-Headroom u-hiddenPrint Headroom Headroom--not-bottom OpenData Headroom--not-top Headroom--unpinned"
+        style="position: relative; top: 0px;">
+    
+    <div class="Header-banner">
+        <div class="Header-owner Headroom-hideme">
+            <a href="https://www.comune.roma.it/" title="Apri sito esterno di Roma Capitale"><span>Roma Capitale</span></a>
+            &nbsp;&nbsp;
+            <a href="https://dati.lazio.it/" title="Apri sito esterno Open Data Lazio"><span>Open Data Lazio</span></a>
+            <div class="Header-languages">
+                
+                
+                <a class="Header-language" href="#languages">
+                    <span lang="it">italiano</span>
+                </a>
+                
+                
+                
+                <a class="Header-language" href="https://dati.comune.roma.it/catalog/en/dataset/a7dadb4a-66ae-4eff-8ded-a102064702ba/resource/d2b123d6-8d2d-4dee-9792-f535df3dc166/download/rome_vehicle_positions.pb">
+                    <span class="Header-language-underline"
+                          lang="en"">English</span>
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="Header-navbar">
+        <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
+
+            <div class="Header-logo-title Grid-cell Grid">
+                <div aria-hidden="true" class="Header-logo Grid-cell">
+                    <a href="https://dati.comune.roma.it/od/it/home.page" title="ROMA_CAPITALE_LOGO_TITLE">
+                        <img alt="ROMA_CAPITALE_LOGO" src="/catalog/img/logo_roma_od.png">
+                    </a>
+                </div>
+
+                <div aria-hidden="true" class="Header-logo Grid-cell logoOpendata">
+                    <a href="https://dati.comune.roma.it/od/it/home.page" title="ROMA_CAPITALE_LOGO_TITLE">
+                        <img alt="ROMA_CAPITALE_LOGO" src="/catalog/img/open_data.png">
+                    </a>
+                </div>
+            </div>
+
+            <div class="Header-searchTrigger Grid-cell">
+                <button aria-controls="header-search" aria-hidden="false" aria-label="attiva il form di ricerca"
+                        class="js-Header-search-trigger Icon Icon-search " title="attiva il form di ricerca">
+                </button>
+                <button aria-controls="header-search" aria-hidden="true" aria-label="disattiva il form di ricerca"
+                        class="js-Header-search-trigger u-hidden"
+                        title="disattiva il form di ricerca">
+                    <span aria-controls="header-search" aria-hidden="true" class="icon-close"></span>
+                </button>
+            </div>
+
+            <div class="Header-utils Grid-cell">
+
+                <div id="header-search" class="Header-search">
+                    <form id="formricerca" action="https://dati.comune.roma.it/od/it/risultatiricerca.page" class="Form">
+                        <div class="Form-field Form-field--withPlaceholder Grid u-background-white u-color-grey-30 u-borderRadius-s"
+                             role="search">
+                            <input class="Form-input Form-input--ultraLean Grid-cell u-sizeFill u-text-r-s u-color-black u-text-r-xs u-borderRadius-s"
+                                   name="search" placeholder="Ricerca sul portale" type="text">
+                            <label class="Form-label u-color-grey-50 u-text-r-xxs" for="search">CERCA_LABEL</label>
+                            <button aria-label="CERCA_START"
+                                    class="Grid-cell u-sizeFit Icon-search u-color-grey-50 u-padding-all-s u-textWeight-700"
+                                    title="CERCA_START"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="Header-toggle Grid-cell">
+                <a aria-controls="menu" aria-label="MENU_OPEN"
+                   class="Hamburger-toggleContainer js-fr-offcanvas-open u-nojsDisplayInlineBlock u-lg-hidden u-md-hidden"
+                   href="#menu" title="MENU_OPEN">
+                    <span class="Hamburger-toggle" role="presentation"></span>
+                    <span class="Header-toggleText-roma" role="presentation">MENU</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Toolbar AlphaToolbar">
+        <p>
+            <a class="Toolbar-handlerclose" href="" title="chiudi">
+                <span aria-hidden="true" class="icon-close"></span>
+            </a>
+        </p>
+    </div>
+    <div class="Headroom-hideme u-textCenter u-hidden u-md-block u-lg-block">
+         
+        <nav class="Megamenu Megamenu--roma opendata">
+            <ul class="Megamenu-list">
+                  
+                <li class="Megamenu-item">
+                     
+                    <a aria-expanded="false" aria-haspopup="true" href="https://dati.comune.roma.it">
+                        Dati
+                    </a>
+                    <div class="Grid Grid--withGutter Megamenu-romasubnav" style="top: 51px;">
+                        <ul class="Grid-cell u-size1of1">
+                             
+                            
+                            <li>
+                                
+                                <a href="https://dati.comune.roma.it/catalog/it/dataset">Dataset</a>
+                                
+                            </li>
+                              
+                            
+                            <li>
+                                
+                                <a href="https://dati.comune.roma.it/catalog/it/group">Cerca per Categoria</a>
+                                
+                            </li>
+                              
+                            
+                            <li>
+                                
+                                <a href="https://www.comune.roma.it/TERRITORIO/nic-gwt/">Geo Dati</a>
+                                
+                            </li>
+                             
+                        </ul>
+                    </div>
+                    
+                </li>
+                   
+                <li class="Megamenu-item">
+                    
+                    <a aria-haspopup="false" href="https://dati.comune.roma.it/od/it/applicazioni.page">
+                        Applicazioni
+                    </a>
+                    
+                </li>
+                   
+                <li class="Megamenu-item">
+                     
+                    <a aria-expanded="false" aria-haspopup="true" href="https://dati.comune.roma.it">
+                        Comunità
+                    </a>
+                    <div class="Grid Grid--withGutter Megamenu-romasubnav" style="top: 51px;">
+                        <ul class="Grid-cell u-size1of1">
+                             
+                            
+                            <li>
+                                
+                                <a href="https://dati.comune.roma.it/od/it/datasetrichiesti.page">Dataset richiesti</a>
+                                
+                            </li>
+                              
+                            
+                            <li>
+                                
+                                <a href="https://dati.comune.roma.it/od/it/richiedidataset.page">Richiedi dataset</a>
+                                
+                            </li>
+                             
+                        </ul>
+                    </div>
+                    
+                </li>
+                   
+                <li class="Megamenu-item">
+                    
+                    <a aria-haspopup="false" href="https://dati.comune.roma.it/od/it/notizie.page">
+                        Notizie
+                    </a>
+                    
+                </li>
+                   
+                <ul class="Megamenu-list" style="position: absolute !important; right: 0;">
+                      
+                    <li class="Megamenu-item Megamenu-right-item Megamenu-yellow-item">
+                         
+                        <a class="item-area-riservata"
+                           href="https://dati.comune.roma.it/od/it/area-riservata.page"
+                           title="TITLE_AREARISERVATA">Area riservata</a>
+                         
+                    </li>
+                     
+                </ul>
+                
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<section id="menu"
+         aria-hidden="true"
+         class="Offcanvas Offcanvas--right Offcanvas--modal js-fr-offcanvas u-jsVisibilityHidden u-nojsDisplayNone u-hiddenPrint is-ready">
+    <h2 class="u-hiddenVisually">MENU_DI_NAVIGAZIONE</h2>
+    <div class="Offcanvas-content u-background-white">
+        <div class="Offcanvas-toggleContainer u-background-70 u-jsHidden">
+            <a aria-controls="menu"
+               aria-label="MENU_CLOSE"
+               class="Hamburger-toggleContainer u-block u-color-white u-padding-bottom-xxl u-padding-left-s u-padding-top-xxl js-fr-offcanvas-close"
+               href="#" title="MENU_CLOSE">
+                <span aria-hidden="true" class="Hamburger-toggle is-active"></span>
+            </a>
+        </div>
+        <div class="Offcanvas-intro">
+            <img alt="ROMA_CAPITALE_LOGO" class="logo" src="/catalog/img/logo_roma.png">
+            <span class="menutitle"></span>
+        </div>
+
+        <nav>
+            <ul class="Linklist Linklist--padded Treeview Treeview--default u-text-r-xs">
+                <li class="back u-hidden">
+                    <a class="" href="#">
+                        <span aria-hidden="true" class="icon-chevron-left u-inline"></span> Indietro</a>
+                </li>
+                   
+                <li class="level1">
+                    <a href="https://dati.comune.roma.it">
+                        Dati 
+                        <span aria-hidden="true" class="icon-chevron-right u-inline u-floatRight"></span>
+                        
+                    </a>
+
+                    
+                    <ul class="u-hidden">
+                          
+                        <li class="level2">
+                            <a href="https://dati.comune.roma.it/catalog/it/dataset">Dataset
+                                <span aria-hidden="true" class="icon-chevron-right u-inline u-floatRight"></span>
+                            </a>
+                        </li>
+                           
+                        <li class="level2">
+                            <a href="https://dati.comune.roma.it/catalog/it/group">Cerca per Categoria
+                                <span aria-hidden="true" class="icon-chevron-right u-inline u-floatRight"></span>
+                            </a>
+                        </li>
+                           
+                        <li class="level2">
+                            <a href="https://dati.comune.roma.ithttps://www.comune.roma.it/TERRITORIO/nic-gwt/">Geo Dati
+                                <span aria-hidden="true" class="icon-chevron-right u-inline u-floatRight"></span>
+                            </a>
+                        </li>
+                         
+                    </ul>
+                    
+
+                </li>
+                   
+                <li class="level1">
+                    <a href="https://dati.comune.roma.it/od/it/applicazioni.page">
+                        Applicazioni 
+                    </a>
+
+                    
+
+                </li>
+                   
+                <li class="level1">
+                    <a href="https://dati.comune.roma.it">
+                        Comunità 
+                        <span aria-hidden="true" class="icon-chevron-right u-inline u-floatRight"></span>
+                        
+                    </a>
+
+                    
+                    <ul class="u-hidden">
+                          
+                        <li class="level2">
+                            <a href="https://dati.comune.roma.it/od/it/datasetrichiesti.page">Dataset richiesti
+                                <span aria-hidden="true" class="icon-chevron-right u-inline u-floatRight"></span>
+                            </a>
+                        </li>
+                           
+                        <li class="level2">
+                            <a href="https://dati.comune.roma.it/od/it/richiedidataset.page">Richiedi dataset
+                                <span aria-hidden="true" class="icon-chevron-right u-inline u-floatRight"></span>
+                            </a>
+                        </li>
+                         
+                    </ul>
+                    
+
+                </li>
+                   
+                <li class="level1">
+                    <a href="https://dati.comune.roma.it/od/it/notizie.page">
+                        Notizie 
+                    </a>
+
+                    
+
+                </li>
+                 
+            </ul>
+        </nav>
+        <nav>
+             
+            <ul class="Linklist Linklist--padded Treeview Treeview--romasub u-text-r-xs">
+                <li class="back u-hidden">
+                    <a class="" href="#">
+                        <span aria-hidden="true" class="icon-chevron-left u-inline"></span>
+                        Indietro
+                    </a>
+                </li>
+                 
+                <li class="level1 area-riservata">
+                    <a href="">
+                        Area riservata 
+                    </a>
+                    
+                </li>
+                 
+            </ul>
+            
+        </nav>
+    </div>
+</section>
+
+  
+    <div class="main">
+      <div id="content" class="container">
+        
+          
+  
+  
+
+
+          
+
+            <div class="toolbar" role="navigation" aria-label="Breadcrumb">
+              
+
+            </div>
+          
+
+
+          <div class="row wrapper no-nav">
+            
+            
+            
+
+            
+
+            
+  <article class="module">
+    <div class="module-content">
+      
+      Internal server error
+    </div>
+  </article>
+
+          </div>
+        
+      </div>
+    </div>
+  
+    
+
+
+
+<footer class="Footer u-padding-all-xxl">
+
+    <div class="u-cf">
+        <img src="/catalog/img/logo_roma_od_small.png" alt="ROMA_CAPITALE_LOGO">
+        <p class="Footer-siteName">
+            Open Data Roma Capitale
+        </p>
+    </div>
+    
+        
+        
+        <div class="Grid Grid--withGutter">
+            
+                <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                    <h2 class="Footer-blockTitle">Open Data Roma Capitale</h2>
+                    
+                        <div class="Footer-subBlock">
+                            <ul class="Footer-links Footer-suplinks u-cf">
+                                
+                                        <li><a href="https://dati.comune.roma.it/od/it/progetto.page">Scopri</a></li> 
+                                
+                                        <li><a href="https://dati.comune.roma.it/od/it/contatti.page">Contatti</a></li> 
+                                
+                                        <li><a href="https://dati.comune.roma.it/od/it/link.page">Link</a></li> 
+                                
+                                        <li><a href="https://dati.comune.roma.it/od/it/lineeguida.page">Linee guida</a></li> 
+                                
+                                        <li><a href="https://dati.comune.roma.it/od/it/partecipa.page">Partecipa</a></li> 
+                                
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+                <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                    <h2 class="Footer-blockTitle">Aiuto</h2>
+                    
+                        <div class="Footer-subBlock">
+                            <ul class="Footer-links Footer-suplinks u-cf">
+                                
+                                        <li><a href="https://dati.comune.roma.it/od/it/legal.page">Licenze</a></li> 
+                                
+                            </ul>
+                        </div>
+                    
+                </div>
+                
+        </div>
+    
+</footer>
+<a href="" title="torna all&#39;inizio del contenuto" class="ScrollTop js-scrollTop js-scrollTo"
+    style="display: none;">
+    <span class="ScrollTop-icon icon-chevron-up" aria-hidden="true"></span>
+    <span class="u-hiddenVisually">BACK_TOTOP_TEXT</span>
+</a>
+  
+
+  
+  
+  
+  
+    
+
+<script>
+var matomoUrl = typeof matomoUrlLabel !== 'undefined' ? matomoUrlLabel : "//www.comune.roma.it/matomo/";
+var piwikUrl = typeof piwikUrlLabel !== 'undefined' ? piwikUrlLabel : "//www.comune.roma.it/analytics/";
+var marcoSezioneValue = typeof marcoSezioneLabel !== 'undefined' ? marcoSezioneLabel : "";
+var trackerMode = typeof trackerModeLabel !== 'undefined' ? trackerModeLabel : "matomo";
+var _paq = window._paq || [];
+_paq.push(['setCookieDomain', '*.comune.roma.it']);
+_paq.push(['setDomains', '*.comune.roma.it']);
+_paq.push(['setDocumentTitle', document.title]);
+_paq.push(['setCustomVariable', 1, 'Sezione', marcoSezioneValue, 'page']);
+_paq.push(['addDownloadExtensions', "json|pb"]);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    if(trackerMode == "matomo"){
+        _paq.push(['setTrackerUrl', matomoUrl + 'matomo.php']);
+    }
+    if(trackerMode == "both") {
+        _paq.push(['setTrackerUrl', piwikUrl + 'pw.jpg']);
+        var secondaryTrackerUrl = matomoUrl + 'matomo.php';
+        var secondaryWebsiteId = 4;
+        _paq.push(['addTracker', secondaryTrackerUrl, secondaryWebsiteId]);
+    }
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=matomoUrl+'matomo.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+    
+    
+    <link href="/catalog/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/catalog/webassets/vendor/0b01aef1_font-awesome.css" rel="stylesheet"/>
+    <script src="/catalog/webassets/vendor/d8ae4bed_jquery.js" type="text/javascript"></script>
+<script src="/catalog/webassets/vendor/fb6095a0_vendor.js" type="text/javascript"></script>
+<script src="/catalog/webassets/vendor/580fa18d_bootstrap.js" type="text/javascript"></script>
+<script src="/catalog/webassets/base/15a18f6c_main.js" type="text/javascript"></script>
+<script src="/catalog/webassets/base/c1116436_ckan.js" type="text/javascript"></script>
+<script src="/catalog/webassets/pw.js?b30cfc5b" type="text/javascript"></script>
+<script src="/catalog/webassets/feedback.js?87cf7a8a" type="text/javascript"></script>
+<script src="/catalog/webassets/portal.js?225e13b3" type="text/javascript"></script>
+<script src="/catalog/webassets/main_it.js?f9ec4541" type="text/javascript"></script>
+<script src="/catalog/webassets/element_main.js?26289ad7" type="text/javascript"></script>
+<script src="/catalog/webassets/element.js?4f63dc78" type="text/javascript"></script>
+<script src="/catalog/webassets/iwt.js?d9ee7dee" type="text/javascript"></script>
+  </body>
+</html>
