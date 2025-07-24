@@ -7,21 +7,20 @@ readme = "README.md"
 packages = [{include = "*", from="src"}]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
-jupytext = "^1.16.1"
-notebook = "^7.1.2"
+python = "^3.10"
+notebook = "^7.4"
 gtfs-realtime-bindings = "1.0.0"
-pandas = "^2.2.1"
-pyarrow = "^15.0.2"
-matplotlib = "^3.8.3"
-gtfs-kit = "^6.1.0"
-pytz = "^2024.1"
+pandas = "^2.3"
+matplotlib = "^3.10"
+gtfs-kit = "^10.3"
+pillow = "^10.4"
+pytz = "^2025.2"
 
 [tool.poetry.group.dev.dependencies]
-isort = "^5.13.2"
-pylint = "^3.1.0"
-mypy = "^1.8.0"
-black = "^24.2.0"
+isort = "^6.0"
+pylint = "^3.3"
+mypy = "^1.17"
+black = "^25.1"
 
 [tool.black]
 line-length = 120
