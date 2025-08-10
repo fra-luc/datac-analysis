@@ -47,6 +47,7 @@ if __name__ == "__main__":
         "vehicle.timestamp",
     ]
     CSV_PATH = "downloads/vehicle_positions.csv"
+    TIMEZONE = "Europe/Rome"
     # with open(CSV_PATH, 'w', newline='') as csvfile:
     #     csv_writer = csv.writer(csvfile)
     #     csv_writer.writerow(VEHICLE_POSITIONS_SCHEMA)
@@ -55,15 +56,19 @@ if __name__ == "__main__":
 
     # TODO improve schema management!
     vehicle_positions = pandas.read_csv(CSV_PATH)
+
     (
         vehicle_positions.assign(
             **{
-                "vehicle.timestamp": pandas.to_datetime(vehicle_positions["vehicle.timestamp"], unit="s"),
+                "vehicle.timestamp": pandas.to_datetime(
+                    vehicle_positions["vehicle.timestamp"], unit="s", utc=True
+                ).dt.tz_convert(TIMEZONE),
                 "vehicle.trip.route_id": vehicle_positions["vehicle.trip.route_id"].astype("category"),
-                "vehicle.trip.start_date": vehicle_positions["vehicle.trip.start_date"].astype("category"),
+                "vehicle.trip.start_date": pandas.to_datetime(
+                    vehicle_positions["vehicle.trip.start_date"], format="%Y%m%d"
+                ).dt.tz_localize(TIMEZONE),
             }
         )
-        .set_index("vehicle.timestamp")
-        .sort_index()
+        .sort_values("vehicle.timestamp")  # sorting helps debugging
         .to_parquet(Path("downloads/vehicle_positions.parquet"))
     )
